@@ -5,14 +5,14 @@ Creep Curve Points Projection
 
 *Projeção de Pontos para a Curva de Fluência*
 
-Programa simples desenvolvido para o facilitar a construção da curva de fluência. O usuário informa o início, o fim do ensaio e a quantidade de pontos da curva, então calcula-se o tempo total do ensaio, o intervalo entre cada ponto e são mostrados das datas e horários para se inserir na planilha dos dados de fluência.
+Programa simples desenvolvido para o facilitar a construção da curva de fluência. O usuário informa o início, o fim do ensaio e a quantidade de pontos da curva, então calcula-se o tempo total do ensaio, o intervalo entre cada ponto e são mostrados as datas e horários para se inserir na planilha dos dados de fluência.
 
 ## Dependências
 
 * Python3
 * Tkinter (interface gráfica em Python)
 
-### Instalação no Windows e MacOS
+### Instalação no Windows
 
 Baixar e instalar o Python3 [direto do site oficial](https://www.python.org/) (tkinter já incluso).
 
