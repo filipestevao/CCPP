@@ -179,11 +179,13 @@ class CCPP(object):
         self.frameIntervalo = Frame(self.janelaCalc)
         self.frameIntervalo.pack(pady=10)
         self.labelIntervalo = Label(self.frameIntervalo, font=TEXTO)
-        self.labelIntervalo['text'] = "Intervalo entre pontos:"#"\n%g hora(s)" % (self.soma_ponto/3600)
+        self.labelIntervalo['text'] = "Intervalo entre pontos:"
         self.labelIntervalo.pack()
         self.textIntervalo = Text(self.frameIntervalo, font=TEXTO, width=25, height=1, borderwidth=0)
         self.textIntervalo.tag_config('center', justify=CENTER)
-        self.textIntervalo.insert('end', "%g hora(s)" % (self.soma_ponto/3600), 'center')
+        intervalo = '%f' %(self.soma_ponto/3600)
+        internalo = intervalo.replace('.',',')
+        self.textIntervalo.insert('end', "%s hora(s)" % internalo, 'center')
         self.textIntervalo.pack()
         # Listbox
         self.frameListbox = Frame(self.janelaCalc)
