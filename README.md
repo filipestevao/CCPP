@@ -12,13 +12,13 @@ Programa simples desenvolvido para o facilitar a construção da curva de fluên
 * Python3
 * Tkinter (interface gráfica em Python)
 
-### Instalação no Windows
+### Instalação do python no Windows
 
 Baixar e instalar o Python3 [direto do site oficial](https://www.python.org/) (tkinter já incluso).
 
-### Instalação em distribuições Linux
+### Instalação do python em distribuições Linux
 
-O Python3 vem instalado por padrão na maioria das distribuições Linux, porém é necessário instalar o Tkinter. Em algumas distribuições basta procurar `tkinter` na loja de aplicativos. Caso prefira usar o terminal, segue os comandos de instalação.
+O Python3 vem instalado por padrão na maioria das distribuições Linux, porém é necessário instalar o tkinter. Em algumas distribuições basta procurar `tkinter` na loja de aplicativos. Caso prefira usar o terminal, segue os comandos de instalação.
 
 Para Ubuntu e derivados:
 ```
@@ -30,28 +30,26 @@ Para o Fedora:
 sudo dnf install python3-tkinter
 ```
 
-## Instalação do CCPP
+Para o Archlinux:
+```
+sudo pacman -S tk
+```
 
-### Instalação no Windows
+## Execução do aplicativo CCPP
+
+### Execução no Windows
 
 * Baixar o arquivo `ccpp.py`.
-* Renomar para `ccpp.pyw` (basta adicionar o `w` depois do `py`).
+* Renomar para `ccpp.pyw`.
 * Clicar duas vezes sobre `ccpp.pyw`.
 
-### Instalação em distribuições Linux
-Baixar o programa:
+### Execução em distribuições Linux
+
+Baixar o arquivo `ccpp.py` e executá-lo. Você pode fazê-lo pela interface gráfica ou pelo terminal. Caso prefira usar o terminal, segue os comandos:
+
 ```
 git clone https://github.com/filipestevao/CCPP.git
-```
-Navegar para a pasta CCPP:
-```
 cd CCPP
-```
-Dar permissão de execução para o arquivo `ccpp.py`:
-```
 chmod +x ccpp.py
-```
-Abrir o arquivo `ccpp.py`:
-```
 ./ccpp.py
 ```
