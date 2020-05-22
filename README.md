@@ -1,11 +1,17 @@
 # CCPP
 Creep Curve Points Projection
 
-## Descrição
-
 *Projeção de Pontos para a Curva de Fluência*
 
+## Descrição
+
 Programa simples desenvolvido para o facilitar a construção da curva de fluência. O usuário informa o início, o fim do ensaio e a quantidade de pontos da curva, então calcula-se o tempo total do ensaio, o intervalo entre cada ponto e são mostrados as datas e horários para se inserir na planilha dos dados de fluência.
+
+## Capturas de tela
+
+![Screenshot1](./screenshot-ccpp1.jpg)
+
+![Screenshot2](./screenshot-ccpp2.jpg)
 
 ## Dependências
 
